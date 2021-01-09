@@ -1,0 +1,78 @@
+[
+    {
+        "name": "The Last of Us",
+        "summary": "A third person shooter/stealth/survival hybrid, in which twenty years after the outbreak of a parasitic fungus which takes over the neural functions of humans, Joel, a Texan with a tragic familial past, finds himself responsible with smuggling a fourteen year old girl named Ellie to a militia group called the Fireflies, while avoiding strict and deadly authorities, infected fungal hosts and other violent survivors.",
+        "release_date": "2013-06-13",
+        "category": 0,
+        "rating": 96.4,
+        "parent": null,
+        "genres": [
+            "Shooter",
+            "Adventure"
+        ],
+        "platforms": [
+            {
+                "category": 0,
+                "name": "PlayStation 3"
+            },
+            {
+                "category": 3,
+                "name": "PC (Microsoft Windows)"
+            }
+        ],
+        "involved_companies": [
+            {
+                "name": "Sony Computer Entertainment, Inc. (SCEI)",
+                "developer": false,
+                "publisher": true
+            },
+            {
+                "name": "Naughty Dog",
+                "developer": true,
+                "publisher": false
+            }
+        ]
+    },
+    {
+        "name": "Borderlands 3",
+        "summary": "The original shooter-looter returns, packing bazillions of guns and a mayhem-fueled adventure! Blast through new worlds and enemies.",
+        "release_date": "2019-09-13",
+        "category": 0,
+        "rating": 96.22,
+        "parent": null,
+        "genres": [
+            "Shooter"
+        ],
+        "platforms": [
+            {
+                "category": 0,
+                "name": "PlayStation 4"
+            },
+            {
+                "category": 3,
+                "name": "PC (Microsoft Windows)"
+            },
+            {
+                "category": 0,
+                "name": "Xbox One"
+            },
+            {
+                "category": 2,
+                "name": "Google Stadia"
+            }
+        ],
+        "involved_companies": [
+            {
+                "name": "2k Games",
+                "developer": false,
+                "publisher": true
+            },
+            {
+                "name": "SIE Santa Monica Studio",
+                "developer": true,
+                "publisher": false
+            }
+        ]
+    }
+]
+    

@@ -1,0 +1,28 @@
+<h1>New Company</h1>
+<%= form_with model: @company, local: true do |form| %>
+  <% if @company.errors.any? %>
+    <ul>
+      <% @company.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+    </ul>
+  <% end %>
+  <div>
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+  <div>
+    <%= form.label :description %>
+    <%= form.text_area :description %>
+  </div>
+  <div>
+    <%= form.label :start_date %>
+    <%= form.date_field :start_date %>
+  </div>
+  <div>
+    <%= form.label :country %>
+    <%= form.text_field :country %>
+  </div>
+  <%= form.submit 'Create Company' %>
+<% end %>
+<%= link_to 'Cancel', root_path %>
